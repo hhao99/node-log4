@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: node-log4
+  host: node-log4
+  disk_quota: 1024M
+  services:
+  - node-log4-cloudantNoSQLDB
